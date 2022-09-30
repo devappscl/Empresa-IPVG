@@ -10,6 +10,8 @@ namespace Empresa
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        
+        public string direccion { get; set; }
        
         public List<Departamento> departamentos;
 
